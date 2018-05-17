@@ -12,7 +12,7 @@ class BaseViewController: UIViewController {
 
     var dict = [String : Any]()
     
-    var isPrint = false
+    var isPrint = false //是否需要打印
     
     override func viewDidLoad() {
         super.viewDidLoad()
